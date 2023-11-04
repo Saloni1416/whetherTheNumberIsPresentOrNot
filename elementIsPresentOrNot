@@ -1,0 +1,15 @@
+"""Write a program that takes an ordered list of numbers (a list where the elements are in order from smallest to largest) and another number. The function decides whether or not the given number is inside the list and returns (then prints) an appropriate boolean."""
+
+list1=[]
+numberOfElements=int(input("Enter number of elements: "))
+for ele in range(numberOfElements):
+    list1.append(int(input("Enter element: ")))
+print(list1)
+
+ele=int(input("Enter the element to be searched:\n "))
+if ele in list1:
+  print(f"{ele} is present in the list")
+else:
+  print(f"{ele} is not present in the list")
+
+
